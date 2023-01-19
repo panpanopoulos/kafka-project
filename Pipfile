@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kafka-python = "*"
+psycopg2 = "*"
+jupyter = "*"
+notebook = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
